@@ -28,6 +28,13 @@ The system follows a modular architecture, separating the core CRUD operations t
 
 ## Tech Stack & Domain
 * Language & Framework: Python 3.x, Flask
-* Database: MySQL
+* Database: MySQL (Hosted locally via XAMPP for development and testing)
 * Frontend: MIT App Inventor
 * Core Domains: Health Information Systems, API Development, Nursing Informatics, Clinical Data Structuring
+
+## System Demonstration & UI
+A system demonstration from the original thesis presentation is available below to show the real-time data flow between the mobile frontend and backend API:
+* **Live Video Demo:** https://youtu.be/_Ihjtn92Z4I?si=aNHl42MnXNnJyGtj
+
+### Application Interface
+The `UI_screenshots` directory contains the visual documentation of the frontend mobile application, developed specifically for triage nurses using the drag-and-drop visual programming environment of **MIT App Inventor**.
