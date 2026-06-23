@@ -3,13 +3,11 @@ import mysql.connector
 import pprint
 import datetime
 
-# SOS
 from create import create_patient, create_admission
 from db import create_connection
 from read import patient_search_by_ama, latest_admission_by_ama
 from update import update_patient, update_admission
 from delete import delete_latest_admission 
-
 
 
 app = Flask(__name__)
@@ -67,8 +65,6 @@ def update_endpoint():
     
     return jsonify({'status': 'success'})
         
-    
-
 
 @app.route('/fyllo-asthenous', methods=['POST'])
 def fyllo_asthenous():
@@ -95,9 +91,6 @@ def fyllo_asthenous():
     result = create_admission(get_db(), admission_data)
 
     return jsonify({"status" : result})
-
-
-
 
 @app.route('/patient', methods=['GET'])
 def get_patient():
@@ -127,7 +120,6 @@ def delete_admission():
     if ama is None:
         return jsonify ({'status': 'error', 'message': 'AMA not provided'})
         
-
     
     result = delete_latest_admission(get_db(), ama)
     if result == 'success':
