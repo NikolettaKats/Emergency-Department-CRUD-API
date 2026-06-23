@@ -2,12 +2,12 @@
 A Python-based CRUD API for real-time management of Emergency Department patient records. Developed as part of my Health Informatics academic thesis
 
 ## Overview
-This repository contains a Python-based CRUD API designed for the real-time management of Emergency Department (ED) patient records. Developed as the core technical implementation of my Health Informatics academic thesis, this project digitizes traditional paper-based nursing forms into a structured, easily accessible Electronic Health Record (EHR) module.
+This repository contains a Python/Flask-based CRUD API designed for the real-time management of Emergency Department (ED) triage data. Developed as the core backend implementation of my Health Informatics academic thesis, this project supports a mobile application built to digitize the traditional paper-based nursing history form taken at the ED.
 
 ## Clinical Context & Value
 In emergency clinical settings, data velocity and accuracy are critical. This API provides the foundational backend infrastructure to:
-* Process patient demographics and clinical triage data seamlessly.
-* Enable real-time updates of patient status.
+* Process patient demographics, medical history, and clinical triage data seamlessly.
+* Enable real-time updates of patient status directly from a mobile device.
 * Ensure data integrity and structural validity prior to database ingestion, supporting evidence-based clinical decision-making at the point of care.
 
 ## Repository Structure
@@ -27,5 +27,7 @@ The system follows a modular architecture, separating the core CRUD operations t
 * No real Protected Health Information (PHI) or Personally Identifiable Information (PII) is included, and database connection credentials have been intentionally omitted to adhere to security best practices.
 
 ## Tech Stack & Domain
-* **Language:** Python 3.x
-* **Core Domains:** Health Information Systems, API Development, Clinical Data Structuring
+* Language & Framework: Python 3.x, Flask
+* Database: MySQL
+* Frontend: MIT App Inventor
+* Core Domains: Health Information Systems, API Development, Nursing Informatics, Clinical Data Structuring
