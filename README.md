@@ -18,6 +18,7 @@ The system follows a modular architecture, separating the core CRUD operations t
 * read.py : Manages fast data retrieval, enabling real-time querying for healthcare professionals.
 * update.py : Processes continuous clinical modifications ensuring data consistency.
 * delete.py : Executes the safe deletion or archiving of patient records in compliance with system rules.
+* db.py: Establishes the connection to the MySQL database (credentials replaced with placeholders for security).
 
 ## Security & Data Privacy Statement
 **Strictly No PHI/PII:** Operating within the rigorous frameworks of Health Informatics and Data Governance, privacy is paramount. 
