@@ -1,5 +1,5 @@
 # Emergency-Department-CRUD-API
-A Python-based CRUD API for real-time management of Emergency Department patient records. Developed as part of my Health Informatics academic thesis
+A Python-based CRUD API for real-time management of Emergency Department patient records. Developed as part of my Health Informatics academic thesis.
 
 ## Overview
 This repository contains a Python/Flask-based CRUD API designed for the real-time management of Emergency Department (ED) triage data. Developed as the core backend implementation of my Health Informatics academic thesis, this project supports a mobile application built to digitize the traditional paper-based nursing history form taken at the ED.
